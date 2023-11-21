@@ -14,4 +14,4 @@ $ terraform destroy > xóa các resource được khai báo trong tfstate
 
 
 ---
-Tạo module truyền các biến vào thay vì hardcode
+
