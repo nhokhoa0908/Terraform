@@ -1,17 +1,10 @@
-# How to run
+# Terraform
+Use TF code to make infrastructure: 4 EC2: 2 on public-subnet-1; 2 on public-subnet-2
 
-- Tạo file variable.tf để khai báo các biến: aws_access_key, aws_secret_key, aws_region, aws_availability_zone
+Create file variable.tf to declare variables: `aws_access_key`, `aws_secret_key`, `aws_region`, `aws_availability_zone`
 
-$ terraform init > khởi tạo môi trường làm việc với terraform.
+```terraform init``` > Initialize working environment with terraform
 
-$ terraform plan > tạo một execution plan
+```terraform plan``` > create an execution plan
 
-$ terraform apply > thực hiện các thay đổi
-
-$ terraform output > hiển thị thông tin resource
-
-$ terraform destroy > xóa các resource được khai báo trong tfstate
-
-
----
-
+```terraform apply``` > make changes
